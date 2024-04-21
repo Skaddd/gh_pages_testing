@@ -19,9 +19,9 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-    # defaults:
-    #   run:
-    #     working-directory: ./gh-react-test
+    defaults:
+      run:
+        working-directory: ./gh-react-test
     strategy:
       matrix:
         node-version: [20]
